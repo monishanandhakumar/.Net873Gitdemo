@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            /*background-color:aquamarine;*/
+            /*background-image: linear-gradient(pink,blue);
+            background-image: linear-gradient( to right,pink,blue);*/
+            /*background-image: linear-gradient(45deg,pink,blue);
+            background-image: linear-gradient(to left ,green,pink,blue);*/
+            /*background-image:radial-gradient(red,blue,yellow);*/
+        }
+        .Linear {
+            height: 200px;
+            /*background-color: red;*/ /* For browsers that do not support gradients */
+            /*background-image: linear-gradient(black, yellow,pink);*/
+            background-image: linear-gradient(to left, rgb(255, 106, 0),rgb(182, 255, 0));
+        }
+
+        .Radial {
+            height: 200px;
+            background-image: radial-gradient(white,black, yellow, green);
+        }
+
+        div {
+            border: 5px solid grey;
+            margin: 5px;
+            padding: 8px;
+        }
+
+    </style>
+</head>
+<body>
+    <p>
+        (255:255:255)
+        0 :white   255:black
+    </p>
+    <div class="Linear"><h1>Linear Gradient</h1></div>
+
+    <br />
+    <div class="Radial"><h1>Radial Gradient </h1></div>
+</body>
+</html>
